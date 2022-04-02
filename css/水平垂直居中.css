@@ -1,0 +1,39 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background: red;
+    /* 1、需固定宽度通过postion和margin控制 */
+    /* position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto; */ 
+
+    /* 2、使用伪元素 */
+    /* text-align: center; */
+     
+    /* 3、table-cell */
+    /* display: table-cell;
+    text-align: center;
+    vertical-align: middle */
+
+    /* 4、writing-mode */
+    /* writing-mode: vertical-lr;
+    text-align: center; */
+}
+
+/* 2 */
+/* .box1::after{
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+/* 4 */
+/* .content {
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    width: 100%;
+} */
